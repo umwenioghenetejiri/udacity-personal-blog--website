@@ -1,0 +1,71 @@
+/*content.css*
+.intro{
+    background-color: rgb(38, 99, 126);
+    color: rgb(213, 226, 226);
+}
+
+.img-post{
+    width: 100px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.month-book{
+    text-align: center;
+}
+
+.btn{
+    color: #fff;
+    background-color: #00f;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.genres{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(233, 196, 238) ;
+
+}
+
+ .fiction{
+    width: 150px;
+    height: 200px;
+    border: 1px solid #00f;
+    background-color: rgb(247, 187, 215);
+}
+
+.post-img{
+    width: 100px;
+    height: 70px;
+}
+
+.img-post2{
+    width: 100px;
+    height: 80px;
+
+}
+
+.reviews{
+    
+    border: 1px solid #f0f;
+}
+
+.nested-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50% ;
+    grid-template-areas: 
+    "one"
+    "two"
+    "three"
+    "four";
+    justify-content: space-evenly;
+    border: 2px solid #0ff
+}

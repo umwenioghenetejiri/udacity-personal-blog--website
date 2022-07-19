@@ -1,0 +1,41 @@
+/*navigation bar*/
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.item{
+    border: 1px solid #000;
+    background-color: #00f;
+    
+
+}
+
+.item:hover{
+    background-color: #000;
+
+}
+
+.nav-link{
+    color: #fff;
+}
+
+#logo{
+    padding-left: 10px;
+    
+    
+}
+
+.club-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: 1em;
+}

@@ -1,0 +1,245 @@
+/*body{
+    background-color: #fff;
+
+}
+
+/*.container{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    grid-template-columns: 100x;
+    grid-template-rows: 35px 200px 100px 60px;
+    grid-template-areas: 
+    "hd hd"
+    "main main"
+    "sd sd"
+    "ft ft";
+}
+
+.box{
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.header{
+    grid-area: hd;
+    background-color: rgb(103, 105, 105);
+}
+
+.footer{
+    grid-area: ft;
+    background-color: rgb(103, 105, 105);
+    justify-content: space-around;
+
+}
+
+.sidebar{
+    grid-area: sd;
+}
+
+.content{
+    grid-area: main;
+}
+
+/*@media(min-width:600px){
+    .container{
+        display: grid;
+        width: 90%;
+        margin: auto;
+        margin-top: 100px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 500px 60px;
+        grid-template-areas: 
+        "hd hd hd hd"
+        "main main main sd"
+        "ft ft ft ft";
+    }
+    }*
+
+    @media(min-width:1100px){
+        .container{
+            display: grid;
+            width: 90%;
+            margin: auto;
+            margin-top: 100px;
+            grid-template-columns: 600px;
+            grid-template-rows: 100px 600px 60px;
+            grid-template-areas: 
+            "hd hd hd hd hd hd hd hd"
+            "main main main main main main sd sd"
+            "ft ft ft ft ft ft ft ft";
+        }
+        }*/
+
+        /*content-blog.css*/
+.title{
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}        
+
+.nested{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    "one two";
+    height: 82%;
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+    
+.one{
+    grid-area: one;
+    border: 2px solid rgb(113, 113, 182);
+    text-align: center;
+}
+
+.two{
+    grid-area: two;
+    border: 2px solid rgb(113, 113, 182);
+    text-align: center;
+}
+
+.sd-links{
+    list-style-type: none;
+
+}
+
+.fiction{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    height: 32px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #00f;
+    color: #fff;
+    padding: 5px;
+}
+
+.fiction:hover{
+    background-color: rgb(145, 93, 93);
+}
+
+/* content box*/
+.heading{
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.post-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-align: justify;
+}
+
+.posts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bookpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    padding: 10px;
+}
+
+h3
+h4
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.blog-post{
+    border: 1px solid rgb(14, 13, 13);
+    width: 150px;
+    height: 150px;
+    padding-bottom: 5px;
+    
+}
+
+#one{
+    background-image: url(allbooks.jpg);
+    background-repeat: no-repeat;
+}
+
+#two{
+    background-image: url(writers.jpg);
+    background-repeat: no-repeat;
+}
+
+#three{
+    background-image: url(allbooks.jpg);
+    background-repeat: no-repeat;
+}
+
+.post-link{
+    align-items: center;
+    color: black;
+    justify-content: center;
+    color: #fff;
+}
+/*navigation bar*/
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.item{
+    border: 1px solid #000;
+    background-color: #00f;
+    
+
+}
+
+.item:hover{
+    background-color: #000;
+
+}
+
+.nav-link{
+    color: #fff;
+}
+
+#logo{
+    padding-left: 10px;
+    
+    
+}
+
+.club-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: 1em;
+}
+
+/*footer */
+.ft-link{
+    width: 30px;
+    height: 20px;
+    display: inline;
+}

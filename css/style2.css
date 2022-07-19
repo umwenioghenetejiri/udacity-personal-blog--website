@@ -1,0 +1,162 @@
+body, html{
+    background-color: rgb(197, 219, 228);
+    margin: 0;
+    width: 100%;
+}
+
+/*.container{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1700px 70px;
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd" 
+    "main main main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+}*/
+
+
+.box{
+    background-color: #fff;
+    border: 1px solid #00f;
+}
+
+header{
+    grid-area: hd;
+    background-color:rgb(103, 105, 105);
+}
+
+.content{
+    grid-area: main;
+
+}
+
+.footer{
+    grid-area: ft;
+    background-color: rgb(103, 105, 105);
+    justify-content: space-around;
+}
+
+/*navigation bar*/
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.item{
+    border: 1px solid #000;
+    background-color: #00f;
+    
+
+}
+
+.item:hover{
+    background-color: #000;
+
+}
+
+.nav-link{
+    color: #fff;
+}
+
+#logo{
+    padding-left: 10px;
+    
+    
+}
+
+.club-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: 1em;
+}
+
+/*content.css*/
+.intro{
+    background-color: #00f;
+    color: rgb(213, 226, 226);
+}
+
+.img-post{
+    width: 100px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.month-book{
+    text-align: center;
+}
+
+.btn{
+    color: #fff;
+    background-color: #00f;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.genres{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(10, 10, 10) ;
+
+}
+
+ .fiction{
+    flex:33.33%;
+    height: 100%;
+    width: 80%;
+    border: 2px solid rgb(35, 35, 36);
+    background-color:rgb(121, 186, 202);
+}
+
+.post-img{
+    width: 100px;
+    height: 70px;
+}
+
+.img-post2{
+    width: 100px;
+    height: 80px;
+
+}
+
+.reviews{
+    
+    border: 1px solid #f0f;
+}
+
+.nested-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50% ;
+    grid-template-areas: 
+    "one"
+    "two"
+    "three"
+    "four";
+    justify-content: space-evenly;
+    border: 2px solid #0ff
+}
+
+/*footer*/
+.ft-link{
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex:50%;
+}
